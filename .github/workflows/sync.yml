@@ -1,0 +1,48 @@
+name: sync
+
+# 每天 02:00 与 14:00 UTC（= 北京 10:00 / 22:00）各跑一次。
+# 需要：仓库 Settings → Secrets → Actions 里加 LLM_API_KEY（不加也能跑，只是摘要留「待补」）。
+on:
+  schedule:
+    - cron: "0 2,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: 同步当天记录
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com/v1' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
+        run: node tools/sync.mjs
+
+      - name: 校验数据
+        run: node tools/validate.mjs
+
+      - name: 有变化就提交
+        run: |
+          if git diff --quiet -- data/auto.js; then
+            echo "今天没有新的天，跳过提交"
+            exit 0
+          fi
+          git config user.name "28-28 bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/auto.js
+          git commit -m "chore: sync $(date -u +%F)"
+          git push

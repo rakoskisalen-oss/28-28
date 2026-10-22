@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>28/28 — Tibo 的 28 天：每天改进，或者每天重置</title>
+<meta name="description" content="Tibo（@thsottiaux）28 天挑战的逐日账本：每天要么交付一项对大多数 Codex / Work 用户有感的改进，要么做一次完整重置。2026.10.05 — 11.01，含原帖链接与社区互动。">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="28/28 — Tibo 的 28 天">
+<meta property="og:description" content="每天改进，或者每天重置。28 天，逐日记录，每条都挂着原帖。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2308090B'/%3E%3Ctext x='32' y='43' font-family='ui-monospace,monospace' font-size='26' font-weight='700' fill='%23C8F45A' text-anchor='middle'%3E28%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#timeline">跳到逐日账本</a>
+
+<noscript>
+  <p class="noscript">这个账本由 JavaScript 渲染。数据都在 <code>data/days.js</code> 里，可以直接打开查看。</p>
+</noscript>
+
+<header class="topbar">
+  <div class="topbar__in">
+    <a class="brand" href="#top" aria-label="28/28 首页">
+      <span class="brand__mark">28<span class="brand__slash">/</span>28</span>
+      <span class="brand__sub">Tibo · Codex</span>
+    </a>
+    <nav class="nav" aria-label="页面导航">
+      <a href="#ledger">账本</a>
+      <a href="#timeline">逐日</a>
+      <a href="#method">方法</a>
+    </nav>
+    <div class="live" aria-live="polite">
+      <span class="live__dot" aria-hidden="true"></span>
+      <span class="live__txt">DAY <b data-bind="navDay">17</b> · <span data-bind="navStatus">等待判定</span></span>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">
+        <span class="eyebrow__dot" aria-hidden="true"></span>
+        OpenAI · Codex / Work
+        <span class="sep">/</span>2026.10.05 — 11.01
+        <span class="sep">/</span>PT
+      </p>
+
+      <div class="hero__grid">
+        <div class="hero__lead">
+          <h1>每天改进，<br>或者每天重置。</h1>
+          <p class="lede">
+            10 月 5 日，Tibo 立下 28 天军令状：每天要么交付一项对大多数 Codex / Work 用户有感的改进，
+            要么给所有人来一次完整重置。这里是逐日的账本，每个结论都挂着原帖。
+          </p>
+          <p class="hero__meta">
+            <span>共 28 天</span>
+            <span>已记录 <b data-bind="recorded">16</b> 天</span>
+            <span>剩余 <b data-bind="remaining">11</b> 天</span>
+          </p>
+        </div>
+
+        <div class="counter">
+          <span class="counter__kicker">Day</span>
+          <div class="counter__row">
+            <span class="counter__now" data-bind="dayNow">17</span>
+            <span class="counter__of">/ 28</span>
+          </div>
+          <p class="counter__status">
+            <span class="pulse" aria-hidden="true"></span>
+            <span data-bind="statusText">等待今日判定</span>
+          </p>
+          <div class="progress" role="progressbar" aria-label="挑战进度" aria-valuemin="0" aria-valuemax="28" aria-valuenow="17">
+            <i data-bind="progressBar"></i>
+          </div>
+          <p class="counter__note">
+            美西时间 <span data-bind="ptClock">--:--</span>
+            <span class="dot-sep">·</span>
+            <span data-bind="todayNote">今日尚无记录</span>
+          </p>
+        </div>
+      </div>
+
+      <dl class="stats">
+        <div class="stat"><dt>有发布的天</dt><dd data-bind="statShip">12</dd></div>
+        <div class="stat"><dt>全量重置</dt><dd data-bind="statReset">6</dd></div>
+        <div class="stat"><dt>储备重置</dt><dd data-bind="statBanked">1</dd></div>
+        <div class="stat stat--accent"><dt>已判定日兑现</dt><dd data-bind="statRate">16 / 16</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" id="ledger">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="sec-num">01</span>28 天账本</h2>
+        <p class="sec-note">一格一天。点格子跳到当天。底部色条是当天的结论，两种颜色就是一鱼两吃。</p>
+      </div>
+      <div class="ledger" id="ledgerGrid" role="list" aria-label="28 天进度账本"></div>
+      <ul class="legend">
+        <li><i class="sw sw--ship"></i>发布</li>
+        <li><i class="sw sw--reset"></i>全量重置</li>
+        <li><i class="sw sw--banked"></i>储备重置</li>
+        <li><i class="sw sw--pending"></i>等待中</li>
+        <li><i class="sw sw--upcoming"></i>未开始</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--rule">
+    <div class="container">
+      <figure class="rule">
+        <figcaption>
+          <span class="tag-mono">军令状</span>
+          <time datetime="2026-10-04">2026.10.04</time>
+          <span class="sep">·</span>PT
+        </figcaption>
+        <blockquote><p data-bind="ruleZh"></p></blockquote>
+        <a class="link-arrow" data-bind="ruleLink" href="#" target="_blank" rel="noopener noreferrer">
+          原帖 · @thsottiaux <span aria-hidden="true">↗</span>
+        </a>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="timeline">
+    <div class="container">
+      <div class="sec-head sec-head--row">
+        <h2><span class="sec-num">02</span>逐日账本</h2>
+        <div class="filters" role="group" aria-label="按结论筛选">
+          <button class="filter is-on" type="button" data-filter="all" aria-pressed="true">全部 <span data-count="all">16</span></button>
+          <button class="filter" type="button" data-filter="ship" aria-pressed="false">发布 <span data-count="ship">11</span></button>
+          <button class="filter" type="button" data-filter="reset" aria-pressed="false">重置 <span data-count="reset">6</span></button>
+          <button class="filter" type="button" data-filter="banked" aria-pressed="false">储备 <span data-count="banked">1</span></button>
+        </div>
+      </div>
+      <div class="days" id="days"></div>
+    </div>
+  </section>
+
+  <section class="section" id="future">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="sec-num">03</span>还没到的日子</h2>
+        <p class="sec-note">页面按日期自动推进：过一天，这里就少一格，账本多一行。</p>
+      </div>
+      <ol class="future" id="futureList"></ol>
+    </div>
+  </section>
+
+  <section class="section" id="method">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="sec-num">04</span>口径与方法</h2>
+      </div>
+      <div class="method">
+        <div class="method__item">
+          <h3>怎么算数</h3>
+          <p>一天同时有改进和重置，两份都记（第 2、3、15 天就是这样）。「储备重置」是一次可留存、按需使用的额度重置，和即时全量重置分列，不重复计入重置次数。</p>
+        </div>
+        <div class="method__item">
+          <h3>互动数是什么</h3>
+          <p>每条下面的是 X 上的鼓掌 / 无感互动比例，不是满意度调研。重置帖天然更受欢迎，所以「94% 鼓掌」往往意味着大家想要重置，而不是这条做得好。</p>
+        </div>
+        <div class="method__item">
+          <h3>时间</h3>
+          <p>挑战按美西时间（PT）计日，页面上的日期也统一用 PT。Tibo 的发帖时间不固定，所以「等待判定」可能出现在一天里的任何时刻。</p>
+        </div>
+        <div class="method__item">
+          <h3>来源与身份</h3>
+          <p>结论以 Tibo 的 X 原帖为准，每条都给了链接；摘要为中文整理，原作者是 @thsottiaux。本站是非官方记录，与 OpenAI 及 Tibo 本人无关。</p>
+        </div>
+      </div>
+      <p class="updated">
+        数据截至 <time datetime="2026-10-20" data-bind="dataThrough">2026.10.20</time>（PT）
+        <span class="sep">/</span>建站于 2026.10.21
+        <span class="sep">/</span>每日同步
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="container foot__in">
+    <span class="foot__brand">28<span class="brand__slash">/</span>28</span>
+    <span>非官方记录 · 数据来自 @thsottiaux 的公开帖文</span>
+    <a href="#top">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<script src="data/days.js"></script>
+<script src="data/auto.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# 密钥与本地环境
+.env
+
+# 同步日志
+logs/
+
+# 临时脚本与截图中间产物
+tools/_*
+shots/profile/
+shots/edge-profile/
