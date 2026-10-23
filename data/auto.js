@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-22T13:37:45.523Z
+ * 上次同步：2026-10-23T14:27:57.228Z
  */
 window.AUTO_DAYS = [
   {
@@ -24,6 +24,32 @@ window.AUTO_DAYS = [
     "tags": [
       "额度重置",
       "访问权限"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 18,
+    "date": "2026-10-22",
+    "kinds": [
+      "reset"
+    ],
+    "title": "Usage reset announced",
+    "url": "https://x.com/thsottiaux/status/2113492502355562875",
+    "summary": "用量重置将于明天太平洋时间上午10点前上线，并与一个小型发布一同推出。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Landing tomorrow before 10am PST together with a small ship.",
+    "postedAt": "2026-10-23T04:47:34.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 639,
+      "meh": 143
+    },
+    "tags": [
+      "用量重置",
+      "发布时间"
     ],
     "source": "auto",
     "note": null,
