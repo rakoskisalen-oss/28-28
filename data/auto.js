@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-23T14:27:57.228Z
+ * 上次同步：2026-10-24T02:19:29.130Z
  */
 window.AUTO_DAYS = [
   {
@@ -50,6 +50,41 @@ window.AUTO_DAYS = [
     "tags": [
       "用量重置",
       "发布时间"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 19,
+    "date": "2026-10-23",
+    "kinds": [
+      "ship"
+    ],
+    "title": "Codex CLI presets, inline settings, and reliability updates",
+    "url": "https://x.com/thsottiaux/status/2113770862860222611",
+    "summary": "Codex CLI 新增可复用提示词预设、内联模型与权限设置、企业 MCP 登录，并修复长会话恢复失败、支持 Windows 企业代理认证。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication. Surprisingly the CLI has grown 2X in usage since",
+    "postedAt": "2026-10-23T23:13:40.000Z",
+    "items": [
+      {
+        "title": "Faster Dots calls and cache-preserving reasoning changes",
+        "url": "https://x.com/thsottiaux/status/2113770573994299544",
+        "summary": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
+        "praise": 102,
+        "meh": 247
+      }
+    ],
+    "reactions": {
+      "praise": 65,
+      "meh": 255
+    },
+    "tags": [
+      "CLI",
+      "企业登录",
+      "代理认证"
     ],
     "source": "auto",
     "note": null,
