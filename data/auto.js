@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-25T14:17:02.111Z
+ * 上次同步：2026-10-26T15:28:25.668Z
  */
 window.AUTO_DAYS = [
   {
@@ -111,6 +111,32 @@ window.AUTO_DAYS = [
     "tags": [
       "用量限制",
       "账户"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 21,
+    "date": "2026-10-25",
+    "kinds": [
+      "reset"
+    ],
+    "title": "Usage limits reset for everyone",
+    "url": "https://x.com/thsottiaux/status/2114588174249071102",
+    "summary": "所有用户的用量限制已重置，帖子未说明具体额度或适用范围。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+    "postedAt": "2026-10-26T05:21:22.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 535,
+      "meh": 204
+    },
+    "tags": [
+      "用量限制",
+      "重置"
     ],
     "source": "auto",
     "note": null,
