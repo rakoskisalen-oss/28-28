@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-26T15:28:25.668Z
+ * 上次同步：2026-10-27T02:22:42.108Z
  */
 window.AUTO_DAYS = [
   {
@@ -137,6 +137,33 @@ window.AUTO_DAYS = [
     "tags": [
       "用量限制",
       "重置"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 22,
+    "date": "2026-10-26",
+    "kinds": [
+      "ship"
+    ],
+    "title": "GPT-6.1 Terra returns with improved writing and understanding",
+    "url": "https://x.com/thsottiaux/status/2114800277677092936",
+    "summary": "GPT-6.1 Terra 回归，在写作、个性化和对请求的细致理解上明显提升，计算机使用表现也较好。它在 API 和订阅中的用量是 6.1 Sol 的 2 倍。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 22/ Terra is back! Our first model that is significantly better at writing, personality and nuanced understanding of requests. Packs a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions.",
+    "postedAt": "2026-10-26T19:24:11.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 621,
+      "meh": 476
+    },
+    "tags": [
+      "模型更新",
+      "API",
+      "订阅"
     ],
     "source": "auto",
     "note": null,
