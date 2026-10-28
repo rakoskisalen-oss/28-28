@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-27T02:22:42.108Z
+ * 上次同步：2026-10-28T14:42:35.547Z
  */
 window.AUTO_DAYS = [
   {
@@ -164,6 +164,32 @@ window.AUTO_DAYS = [
       "模型更新",
       "API",
       "订阅"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 23,
+    "date": "2026-10-27",
+    "kinds": [
+      "reset"
+    ],
+    "title": "Usage limits reset for everyone",
+    "url": "https://x.com/thsottiaux/status/2115273064481218829",
+    "summary": "所有用户的用量限制已重置，帖子未说明具体额度或适用范围。iCloud 主账号与日历插件仍未上线。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+    "postedAt": "2026-10-28T02:42:53.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 1291,
+      "meh": 111
+    },
+    "tags": [
+      "用量限制",
+      "账号重置"
     ],
     "source": "auto",
     "note": null,
