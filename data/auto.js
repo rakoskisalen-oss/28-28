@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-28T14:42:35.547Z
+ * 上次同步：2026-10-29T02:37:44.509Z
  */
 window.AUTO_DAYS = [
   {
@@ -190,6 +190,33 @@ window.AUTO_DAYS = [
     "tags": [
       "用量限制",
       "账号重置"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 24,
+    "date": "2026-10-28",
+    "kinds": [
+      "ship"
+    ],
+    "title": "Text your dot via iMessage or RCS",
+    "url": "https://x.com/thsottiaux/status/2115622002581188681",
+    "summary": "Dot 现在支持通过 iMessage 或 RCS 收发消息，可转发内容、发送语音留言，也能用「Hey Siri, text Iggy to…」下指令。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to <INSERT WILD REQUEST>\" and sit back and relax.",
+    "postedAt": "2026-10-29T01:49:26.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 34,
+      "meh": 748
+    },
+    "tags": [
+      "消息",
+      "语音",
+      "Siri"
     ],
     "source": "auto",
     "note": null,
