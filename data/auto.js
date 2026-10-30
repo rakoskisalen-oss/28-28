@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-29T02:37:44.509Z
+ * 上次同步：2026-10-30T14:45:12.015Z
  */
 window.AUTO_DAYS = [
   {
@@ -217,6 +217,33 @@ window.AUTO_DAYS = [
       "消息",
       "语音",
       "Siri"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 25,
+    "date": "2026-10-29",
+    "kinds": [
+      "ship"
+    ],
+    "title": "Doubled usage limits for Pro tiers and Business Premium",
+    "url": "https://x.com/thsottiaux/status/2115850175868727621",
+    "summary": "Pro 100/200/500 档和 Business Premium 的使用额度今日起全部翻倍；Pro 200 的 Work 与 Codex 用量维持不变，不会下调。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 25/ We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today. We heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering",
+    "postedAt": "2026-10-29T16:56:07.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 2510,
+      "meh": 708
+    },
+    "tags": [
+      "额度",
+      "订阅",
+      "Codex"
     ],
     "source": "auto",
     "note": null,
