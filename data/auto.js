@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-30T14:45:12.015Z
+ * 上次同步：2026-10-31T07:54:17.341Z
  */
 window.AUTO_DAYS = [
   {
@@ -244,6 +244,33 @@ window.AUTO_DAYS = [
       "额度",
       "订阅",
       "Codex"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 26,
+    "date": "2026-10-30",
+    "kinds": [
+      "ship"
+    ],
+    "title": "Multiple-account switching on mobile",
+    "url": "https://x.com/thsottiaux/status/2116405414921384099",
+    "summary": "移动端现已支持在多个账号之间切换，桌面端版本也即将推出。接下来两天将进行重置和存储。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀. https://t.co/iQxsqbuk0f",
+    "postedAt": "2026-10-31T05:42:26.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 494,
+      "meh": 149
+    },
+    "tags": [
+      "多账号",
+      "移动端",
+      "桌面端"
     ],
     "source": "auto",
     "note": null,
