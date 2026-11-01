@@ -1,6 +1,6 @@
 /* 自动生成：node tools/sync.mjs —— 不要手改。
  * 校订过的记录请放进 data/days.js（同一天以 days.js 为准）。
- * 上次同步：2026-10-31T07:54:17.341Z
+ * 上次同步：2026-11-01T08:36:56.541Z
  */
 window.AUTO_DAYS = [
   {
@@ -271,6 +271,32 @@ window.AUTO_DAYS = [
       "多账号",
       "移动端",
       "桌面端"
+    ],
+    "source": "auto",
+    "note": null,
+    "summarySource": "llm"
+  },
+  {
+    "day": 27,
+    "date": "2026-10-31",
+    "kinds": [
+      "banked"
+    ],
+    "title": "A banked reset for everyone",
+    "url": "https://x.com/thsottiaux/status/2116692529970311254",
+    "summary": "Codex 推出可存储的重置次数（banked reset），每人可存 1/2 次，用于在额度用尽后恢复使用。",
+    "quote": null,
+    "quoteZh": null,
+    "postText": "Banked 1/2",
+    "postedAt": "2026-11-01T00:43:20.000Z",
+    "items": [],
+    "reactions": {
+      "praise": 673,
+      "meh": 58
+    },
+    "tags": [
+      "Codex",
+      "额度"
     ],
     "source": "auto",
     "note": null,
